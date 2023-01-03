@@ -1,5 +1,4 @@
 use wasm_bindgen::prelude::*;
-use web_sys::console::log_1 as log;
 use base64::{encode,decode};
 use image::load_from_memory;
 use image::ImageOutputFormat::Png;
