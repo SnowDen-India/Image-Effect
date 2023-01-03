@@ -14,7 +14,6 @@ async function init(){
 
     const input = document.getElementById('upload');
     const fileReader = new FileReader()
-    document.getElementById("myAnchor").style.visibility='hidden';
      fileReader.onloadend = ()=>{
         const base64 = fileReader.result.replace(/^data:image\/(png|jpeg|jpg);base64,/,'');
 
